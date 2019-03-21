@@ -3,13 +3,13 @@
 * K8S kendisi içerisinde sürekli soyutlama katlamanları bulundurmaktadır, konteynır üzerinde podlar, podlar üzerinde ise deployment katmanı bulunmaktadır. 
 
 
-Deploymentların birincil amaçları, pod kümelerini beraber biçimde yönetebilmektir. Bir pod durduğu zaman yenisini yaratmayı veya olası durumda yeniden başlatmayı yine yönetmektedir.
+Deploymentların birincil amaçları, pod kümelerini birlikte yönetebilmektir. Bir pod durduğu zaman yenisini yaratmayı veya olası durumda yeniden başlatmayı yine yönetmektedir.
 
 Bunun yanında tüm podların sayısını sürekli tutmayı veya bunlara bağlı olarak monitor edilmesini de sağlamaktadır .
 
 
 
-Bütün bunlar haricinde, CI CD süreçlerinde de deployment katmanı podların roll-up ve roll-back yapabilmek için beraberinde yönetilebilmektedir. 
+Bütün bunlar haricinde, CI ve CD süreçlerinde de deployment katmanı podların roll-up ve roll-back yapabilmek için beraberinde yönetilebilmektedir. 
 
 
   Deployment objeleri geçmişi kendi içerisinde tutmaktadırlar. 
@@ -57,7 +57,7 @@ Ayrı bir yöntem olarak kendiniz patch komutunu kullanarak rolling-back, roll-o
         
 # Deploymentlarda Yaşam Döngüsü 
 
-### Readness Probe : Uygulama ayağa kalkalarken kontrol etmenizi sağlamaktadır. TCP, Http , ping (ICMP) ile kontrol edilebilir .
+### Readness Probe : Uygulama ayağa kalkarken kontrol etmenizi sağlamaktadır. TCP, Http , ping (ICMP) ile kontrol edilebilir .
 
 ### Liveness Probe : Uygulama yaşamı boyunca kontrol yapmaktadırlar . 
 
