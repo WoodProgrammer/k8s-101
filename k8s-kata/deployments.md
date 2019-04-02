@@ -82,4 +82,6 @@ Ayrı bir yöntem olarak kendiniz patch komutunu kullanarak rolling-back, roll-o
             
             
 
-
+K8S Ortamında RollingUpdate Yaparak 
+Bir uygulamayı tüm envlere atabilirsiniz 
+Geçmiş versiyonlara geri dönebilirsiniz 
