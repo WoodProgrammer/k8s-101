@@ -11,6 +11,7 @@ Bunun yanında tüm podların sayısını sürekli tutmayı veya bunlara bağlı
 
 Bütün bunlar haricinde, CI ve CD süreçlerinde de deployment katmanı podların roll-up ve roll-back yapabilmek için beraberinde yönetilebilmektedir. 
 
+Geçmişi tutabilmek için --record ekleyerek historyleri tutabilirsiniz . 
 
   Deployment objeleri geçmişi kendi içerisinde tutmaktadırlar. 
   
